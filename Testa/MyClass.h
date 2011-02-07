@@ -12,6 +12,7 @@
 @interface MyClass : NSObject {
     int test;
     int test_2;
+    int test_3;
 }
 
 @end
