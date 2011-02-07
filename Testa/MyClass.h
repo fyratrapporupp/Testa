@@ -10,7 +10,7 @@
 
 
 @interface MyClass : NSObject {
-    
+    int test;
 }
 
 @end
