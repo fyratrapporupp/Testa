@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C527157912FFF22100493F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157812FFF22100493F59 /* UIKit.framework */; };
+		C527157B12FFF22100493F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157A12FFF22100493F59 /* Foundation.framework */; };
+		C527157D12FFF22100493F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157C12FFF22100493F59 /* CoreGraphics.framework */; };
+		C527158312FFF22100493F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C527158112FFF22100493F59 /* InfoPlist.strings */; };
+		C527158612FFF22100493F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C527158512FFF22100493F59 /* main.m */; };
+		C527158912FFF22100493F59 /* TestaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C527158812FFF22100493F59 /* TestaAppDelegate.m */; };
+		C527158C12FFF22100493F59 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C527158A12FFF22100493F59 /* MainWindow.xib */; };
+		C527158F12FFF22100493F59 /* TestaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C527158E12FFF22100493F59 /* TestaViewController.m */; };
+		C527159212FFF22100493F59 /* TestaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C527159012FFF22100493F59 /* TestaViewController.xib */; };
+		C527159912FFF22200493F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157812FFF22100493F59 /* UIKit.framework */; };
+		C527159A12FFF22200493F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157A12FFF22100493F59 /* Foundation.framework */; };
+		C527159B12FFF22200493F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C527157C12FFF22100493F59 /* CoreGraphics.framework */; };
+		C52715A312FFF22200493F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C52715A112FFF22200493F59 /* InfoPlist.strings */; };
+		C52715A612FFF22200493F59 /* TestaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C52715A512FFF22200493F59 /* TestaTests.h */; };
+		C52715A812FFF22200493F59 /* TestaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52715A712FFF22200493F59 /* TestaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C527159C12FFF22200493F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C527156B12FFF22100493F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C527157312FFF22100493F59;
+			remoteInfo = Testa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C527157412FFF22100493F59 /* Testa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C527157812FFF22100493F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C527157A12FFF22100493F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C527157C12FFF22100493F59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C527158012FFF22100493F59 /* Testa-Info.plist */ = {isa = PBXFileReference; path = "Testa-Info.plist"; sourceTree = "<group>"; };
+		C527158212FFF22100493F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C527158412FFF22100493F59 /* Testa-Prefix.pch */ = {isa = PBXFileReference; path = "Testa-Prefix.pch"; sourceTree = "<group>"; };
+		C527158512FFF22100493F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C527158712FFF22100493F59 /* TestaAppDelegate.h */ = {isa = PBXFileReference; path = TestaAppDelegate.h; sourceTree = "<group>"; };
+		C527158812FFF22100493F59 /* TestaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestaAppDelegate.m; sourceTree = "<group>"; };
+		C527158B12FFF22100493F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C527158D12FFF22100493F59 /* TestaViewController.h */ = {isa = PBXFileReference; path = TestaViewController.h; sourceTree = "<group>"; };
+		C527158E12FFF22100493F59 /* TestaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestaViewController.m; sourceTree = "<group>"; };
+		C527159112FFF22100493F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestaViewController.xib; sourceTree = "<group>"; };
+		C527159812FFF22200493F59 /* TestaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52715A012FFF22200493F59 /* TestaTests-Info.plist */ = {isa = PBXFileReference; path = "TestaTests-Info.plist"; sourceTree = "<group>"; };
+		C52715A212FFF22200493F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C52715A412FFF22200493F59 /* TestaTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestaTests-Prefix.pch"; sourceTree = "<group>"; };
+		C52715A512FFF22200493F59 /* TestaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestaTests.h; sourceTree = "<group>"; };
+		C52715A712FFF22200493F59 /* TestaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C527157112FFF22100493F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527157912FFF22100493F59 /* UIKit.framework in Frameworks */,
+				C527157B12FFF22100493F59 /* Foundation.framework in Frameworks */,
+				C527157D12FFF22100493F59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527159412FFF22200493F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527159912FFF22200493F59 /* UIKit.framework in Frameworks */,
+				C527159A12FFF22200493F59 /* Foundation.framework in Frameworks */,
+				C527159B12FFF22200493F59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C527156912FFF22100493F59 = {
+			isa = PBXGroup;
+			children = (
+				C527157E12FFF22100493F59 /* Testa */,
+				C527159E12FFF22200493F59 /* TestaTests */,
+				C527157712FFF22100493F59 /* Frameworks */,
+				C527157512FFF22100493F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C527157512FFF22100493F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C527157412FFF22100493F59 /* Testa.app */,
+				C527159812FFF22200493F59 /* TestaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C527157712FFF22100493F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C527157812FFF22100493F59 /* UIKit.framework */,
+				C527157A12FFF22100493F59 /* Foundation.framework */,
+				C527157C12FFF22100493F59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C527157E12FFF22100493F59 /* Testa */ = {
+			isa = PBXGroup;
+			children = (
+				C527158712FFF22100493F59 /* TestaAppDelegate.h */,
+				C527158812FFF22100493F59 /* TestaAppDelegate.m */,
+				C527158A12FFF22100493F59 /* MainWindow.xib */,
+				C527158D12FFF22100493F59 /* TestaViewController.h */,
+				C527158E12FFF22100493F59 /* TestaViewController.m */,
+				C527159012FFF22100493F59 /* TestaViewController.xib */,
+				C527157F12FFF22100493F59 /* Supporting Files */,
+			);
+			path = Testa;
+			sourceTree = "<group>";
+		};
+		C527157F12FFF22100493F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C527158012FFF22100493F59 /* Testa-Info.plist */,
+				C527158112FFF22100493F59 /* InfoPlist.strings */,
+				C527158412FFF22100493F59 /* Testa-Prefix.pch */,
+				C527158512FFF22100493F59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C527159E12FFF22200493F59 /* TestaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C52715A512FFF22200493F59 /* TestaTests.h */,
+				C52715A712FFF22200493F59 /* TestaTests.m */,
+				C527159F12FFF22200493F59 /* Supporting Files */,
+			);
+			path = TestaTests;
+			sourceTree = "<group>";
+		};
+		C527159F12FFF22200493F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C52715A012FFF22200493F59 /* TestaTests-Info.plist */,
+				C52715A112FFF22200493F59 /* InfoPlist.strings */,
+				C52715A412FFF22200493F59 /* TestaTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C527157312FFF22100493F59 /* Testa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52715AB12FFF22200493F59 /* Build configuration list for PBXNativeTarget "Testa" */;
+			buildPhases = (
+				C527157012FFF22100493F59 /* Sources */,
+				C527157112FFF22100493F59 /* Frameworks */,
+				C527157212FFF22100493F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testa;
+			productName = Testa;
+			productReference = C527157412FFF22100493F59 /* Testa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C527159712FFF22200493F59 /* TestaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52715AE12FFF22200493F59 /* Build configuration list for PBXNativeTarget "TestaTests" */;
+			buildPhases = (
+				C527159312FFF22200493F59 /* Sources */,
+				C527159412FFF22200493F59 /* Frameworks */,
+				C527159512FFF22200493F59 /* Resources */,
+				C527159612FFF22200493F59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C527159D12FFF22200493F59 /* PBXTargetDependency */,
+			);
+			name = TestaTests;
+			productName = TestaTests;
+			productReference = C527159812FFF22200493F59 /* TestaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C527156B12FFF22100493F59 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C527156E12FFF22100493F59 /* Build configuration list for PBXProject "Testa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C527156912FFF22100493F59;
+			productRefGroup = C527157512FFF22100493F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C527157312FFF22100493F59 /* Testa */,
+				C527159712FFF22200493F59 /* TestaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C527157212FFF22100493F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527158312FFF22100493F59 /* InfoPlist.strings in Resources */,
+				C527158C12FFF22100493F59 /* MainWindow.xib in Resources */,
+				C527159212FFF22100493F59 /* TestaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527159512FFF22200493F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52715A312FFF22200493F59 /* InfoPlist.strings in Resources */,
+				C52715A612FFF22200493F59 /* TestaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C527159612FFF22200493F59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C527157012FFF22100493F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527158612FFF22100493F59 /* main.m in Sources */,
+				C527158912FFF22100493F59 /* TestaAppDelegate.m in Sources */,
+				C527158F12FFF22100493F59 /* TestaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C527159312FFF22200493F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52715A812FFF22200493F59 /* TestaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C527159D12FFF22200493F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C527157312FFF22100493F59 /* Testa */;
+			targetProxy = C527159C12FFF22200493F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C527158112FFF22100493F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527158212FFF22100493F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C527158A12FFF22100493F59 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527158B12FFF22100493F59 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C527159012FFF22100493F59 /* TestaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527159112FFF22100493F59 /* en */,
+			);
+			name = TestaViewController.xib;
+			sourceTree = "<group>";
+		};
+		C52715A112FFF22200493F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52715A212FFF22200493F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C52715A912FFF22200493F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C52715AA12FFF22200493F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C52715AC12FFF22200493F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testa/Testa-Prefix.pch";
+				INFOPLIST_FILE = "Testa/Testa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C52715AD12FFF22200493F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testa/Testa-Prefix.pch";
+				INFOPLIST_FILE = "Testa/Testa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C52715AF12FFF22200493F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Testa.app/Testa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestaTests/TestaTests-Prefix.pch";
+				INFOPLIST_FILE = "TestaTests/TestaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C52715B012FFF22200493F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Testa.app/Testa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestaTests/TestaTests-Prefix.pch";
+				INFOPLIST_FILE = "TestaTests/TestaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C527156E12FFF22100493F59 /* Build configuration list for PBXProject "Testa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52715A912FFF22200493F59 /* Debug */,
+				C52715AA12FFF22200493F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C52715AB12FFF22200493F59 /* Build configuration list for PBXNativeTarget "Testa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52715AC12FFF22200493F59 /* Debug */,
+				C52715AD12FFF22200493F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C52715AE12FFF22200493F59 /* Build configuration list for PBXNativeTarget "TestaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52715AF12FFF22200493F59 /* Debug */,
+				C52715B012FFF22200493F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C527156B12FFF22100493F59 /* Project object */;
+}
